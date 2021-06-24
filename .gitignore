@@ -1,0 +1,12 @@
+
+# ignore target file
+# test.py
+cs.py
+
+data
+experiments
+LITS2017
+models
+.vscode
+*.csv
+*.pyc
