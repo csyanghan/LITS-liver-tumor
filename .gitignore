@@ -8,5 +8,4 @@ experiments
 LITS2017
 models
 .vscode
-*.csv
 *.pyc

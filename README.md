@@ -3,6 +3,7 @@
 
 
 # How to use it 
+
 step 1 data process
 --   
 ``python data_prepare/preprocess.py``
@@ -25,6 +26,7 @@ step 2 Train the model
 --
 ``python train.py``
 
+
 step 3 Test the model 
 --
 
@@ -32,8 +34,11 @@ step 3 Test the model
 
 
 # Result(Test)
-| Method     |U-Net  |
+
+[The result for every volume](./test.csv)
+
+| Method     |U-Net(average)  |
 | :----------:|:----:|
-| `Dice(liver)`|0.951|
-| `Dice(tumor)`|0.613|
+| `Dice(liver)`|0.9020|
+| `Dice(tumor)`|0.6772|
 
